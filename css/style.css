@@ -131,10 +131,16 @@ img {
 
 /* MEDIA QUERY */
 
+
+/* FARE CHECK SU FIREFOX PERCHè CHROME SBALLA LE MISURE */
+
 @media screen and (max-width: 768px) {
-    
+    .container {
+        width: 100%;
+    }
+
 }
 
-@media screen  and (max-width: 480px){
-    
+@media screen  and (max-width: 480px) {
+
 }
